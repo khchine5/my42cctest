@@ -1,0 +1,20 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$120000$o8H5SUR4JA5q$LOhD3GQat/pSaZ7jdgboQwRfCbI5lm0gcQ+bWpSEvfI=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "hamza@khchine5.me.uk",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-09-30T20:07:23.982Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
