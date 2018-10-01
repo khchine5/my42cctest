@@ -1,0 +1,13 @@
+[
+   {
+      "pk":1,
+      "model":"testapps.person",
+      "fields":{
+         "surname":"Hamza",
+         "name":"Khchine",
+         "contact":"Douz, Tunisia",
+         "date_birth":"1987-01-31",
+         "bio":"''' Django developer... '''"
+      }
+   }
+]
