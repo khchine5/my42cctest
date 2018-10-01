@@ -6,5 +6,3 @@ app_name = 'testapps'
 urlpatterns = [
     path('', views.IndexView.as_view(), name='index'),
 ]
-
-

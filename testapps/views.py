@@ -8,5 +8,5 @@ class IndexView(generic.DetailView):
     template_name = 'testapps/index.html'
 
     def get_object(self, queryset=None):
-        """Return the last five published questions."""
+        """Return my personal data."""
         return Person.objects.get(pk=1)

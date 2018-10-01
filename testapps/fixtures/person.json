@@ -1,13 +1,16 @@
 [
-   {
-      "pk":1,
-      "model":"testapps.person",
-      "fields":{
-         "surname":"Hamza",
-         "name":"Khchine",
-         "contact":"Douz, Tunisia",
-         "date_birth":"1987-01-31",
-         "bio":"''' Django developer... '''"
-      }
-   }
+  {
+    "model": "testapps.person",
+    "pk": 1,
+    "fields": {
+      "name": "Hamza",
+      "surname": "Khchine",
+      "date_birth": "2018-09-30",
+      "bio": "Django developer.",
+      "email": "hamza@khchine5.me.uk",
+      "jabber_id": "khchine05@42cc.co",
+      "skype_id": "khchine5",
+      "other_contacts": "website: https://khchine5.me.uk"
+    }
+  }
 ]
