@@ -1,5 +1,5 @@
 """
-Django settings for fortytwo_test_task project.
+Django settings for my42cctest project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.6/topics/settings/
