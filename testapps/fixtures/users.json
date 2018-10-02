@@ -1,20 +1,20 @@
 [
-{
-    "model": "auth.user",
+  {
     "pk": 1,
+    "model": "auth.user",
     "fields": {
-        "password": "pbkdf2_sha256$120000$o8H5SUR4JA5q$LOhD3GQat/pSaZ7jdgboQwRfCbI5lm0gcQ+bWpSEvfI=",
-        "last_login": null,
-        "is_superuser": true,
-        "username": "admin",
-        "first_name": "",
-        "last_name": "",
-        "email": "hamza@khchine5.me.uk",
-        "is_staff": true,
-        "is_active": true,
-        "date_joined": "2018-09-30T20:07:23.982Z",
-        "groups": [],
-        "user_permissions": []
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "is_active": true,
+      "is_superuser": true,
+      "is_staff": true,
+      "last_login": "2018-10-02T21:02:28.896Z",
+      "groups": [],
+      "user_permissions": [],
+      "password": "pbkdf2_sha256$12000$CXzSaOgRqq4s$Gpp77AVqvV8VRphp1v2k+1Fc62DySCLXg6jYsfbVtKc=",
+      "email": "hamza@khchine5.me.uk",
+      "date_joined": "2018-10-02T21:02:28.896Z"
     }
-}
+  }
 ]

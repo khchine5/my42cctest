@@ -12,11 +12,13 @@
                     <input type="text" class="form-control" id="firstName" placeholder="" value="{{ object.name }}"
                            required="">
                     <label for="lastName">Second name</label>
-                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                    <input type="text" class="form-control" id="lastName" placeholder="" value="{{ object.surname }}" required="">
                     <label for="lastName">Date of Birth</label>
-                    <input type="text" class="form-control" id="date_birth" placeholder="" value="" required="">
+                    <input type="text" class="form-control" id="date_birth" placeholder="" value="{{ object.date_birth }}" required="">
                     <label for="lastName">Bio</label>
-                    <textarea class="form-control" id="bio" placeholder="" value="" required=""></textarea>
+                    <textarea class="form-control" id="bio" placeholder="" required="">
+                        {{ object.bio }}
+                    </textarea>
                 </div>
                 <div class="col-md-6 mb-3">
                     <h4 for="lastName">Contacts</h4>
@@ -30,8 +32,9 @@
                     <input type="text" class="form-control" id="skype_id" placeholder="" value="{{ object.skype_id }}"
                            required="">
                     <label for="firstName">Other contacts</label>
-                    <textarea type="text" class="form-control" id="other_contacts" placeholder=""
-                              value="{{ object.other_contacts }}" required=""></textarea>
+                    <textarea type="text" class="form-control" id="other_contacts" placeholder="" required="">
+                        {{ object.other_contacts }}
+                    </textarea>
                 </div>
             </div>
 
